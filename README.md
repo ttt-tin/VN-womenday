@@ -1,21 +1,15 @@
-# 这是什么东西？
+The source code comes from https://github.com/AJLoveChina/birthday with some of my changes.
 
-> 源码来自 https://github.com/AJLoveChina/birthday 基本没做改动
->
+Domestic users visit: https://sg.chenjianhui.site/girlfriend-gift-collection/birth-want-to-say/
+Github Pages: https://calebman.github.io/girlfriend-gift-collection/birth-want-to-say/
 
-一个女朋友生日的程序员解决方案，支持便捷的内容配置，急速替换为自己想要的内容，点击下方链接预览效果。
+How to modify it to your own content
+1. Modify configuration content
 
-- 国内用户访问：[https://sg.chenjianhui.site/girlfriend-gift-collection/birth-want-to-say/](https://sg.chenjianhui.site/girlfriend-gift-collection/birth-want-to-say/)
-- Github Pages: [https://calebman.github.io/girlfriend-gift-collection/birth-want-to-say/](https://calebman.github.io/girlfriend-gift-collection/birth-want-to-say/)
-# 如何修改为自己的内容
+Modify the config.js file in the birth-want-to-say directory to achieve the desired effect
 
-一、修改配置内容
+texts: represents the playback content
+imgs: images corresponding to the content, one-to-one correspondence through subscripts
+2. Deploy static resources
 
-修改 birth-want-to-say 目录下的 config.js 文件，达到预期效果
-
-- texts: 代表播放内容
-- imgs: 与内容对应的图片，通过下标一一对应
-
-二、部署静态资源
-
-直接部署 birth-want-to-say 到静态文件服务器即可
+Just deploy birth-want-to-say directly to the static file server
